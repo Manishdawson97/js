@@ -66,7 +66,7 @@ const course = {
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
-console.log(instructor);
+// console.log(instructor);
 
 // {
 //     "name": "hitesh",
@@ -79,3 +79,22 @@ console.log(instructor);
     {},
     {}
 ]
+
+
+// const navbar=({company})=>{
+
+// }
+// navbar(name="manish")
+// navbar.name="manish"
+
+// console.log(navbar)
+
+
+const navbar = ({ company }) => {
+    console.log(`Company: ${company}`);
+};
+
+// Add a custom property
+navbar.name = "manish";
+
+console.log(navbar.name); // Output: manish
